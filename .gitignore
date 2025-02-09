@@ -1,0 +1,6 @@
+dist/
+build/
+node_modules/
+compile_commands.json
+compile_flags.txt
+.cache/
