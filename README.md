@@ -34,3 +34,11 @@ git clone git@github.com:adtonos/mstl-node.git
 npm install
 npm test
 ```
+
+## Tips
+
+### Generating compile_commands.json
+Many IDEs use `compile_commands.json` for LSP setup, one easy way to generate them is to use [bear](https://github.com/rizsotto/Bear)
+```sh
+bear -- npx node-gyp rebuild --verbose
+```
