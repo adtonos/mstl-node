@@ -5,6 +5,18 @@
   "description": "Javascript bindings of MSTL based on STL implementation from ankane/stl-cpp",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "native",
+    "package.json",
+    "tsconfig.json",
+    "UNLICENSE",
+    "binding.gyp",
+    "LICENSE-MIT"
+  ],
+  "repository": {
+    "url": "https://github.com/adtonos/mstl-node"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -15,7 +27,7 @@
     "prepare": "husky || true"
   },
   "author": "AdTonos (adtonos.com)",
-  "license": "UNLICENSED",
+  "license": "(MIT OR UNLICENSED)",
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.13.1",
@@ -37,5 +49,8 @@
   "lint-staged": {
     "*.{js,ts,json}": "prettier --write",
     "*.{hpp,h,cpp}": "clang-format -i"
+  },
+  "volta": {
+    "node": "22.7.0"
   }
 }
