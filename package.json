@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@adtonos/mstl-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript bindings of MSTL based on STL implementation from ankane/stl-cpp",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
