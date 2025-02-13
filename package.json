@@ -5,6 +5,9 @@
   "description": "Javascript bindings of MSTL based on STL implementation from ankane/stl-cpp",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "postinstall": "npx node-gyp configure build",
     "build": "npx node-gyp configure build && tsc",
